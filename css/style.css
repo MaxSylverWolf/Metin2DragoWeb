@@ -1,0 +1,130 @@
+body, td {  font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif; font-size: 9pt; color: #000000 }
+
+a.menu {  font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif; font-size: 8pt; color: #decdb9;}
+a.menu:link { color: #decdb9; text-decoration: none}
+a.menu:visited { color: #decdb9; text-decoration: none}
+a.menu:hover, a.menu:active {  color: #f3e9dd; text-decoration: none;}
+
+a {  font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif; font-size: 8pt; color: #4b6269;}
+a:link { color: #4b6269; text-decoration: none}
+a:visited { color: #4b6269; text-decoration: none}
+a:hover, a:active {  color: #6b8289; text-decoration: none;}
+
+.heading1 {font-family: Arno Pro SmText; font-size: 18pt; color: #84643e;}
+.notice {  font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif; font-size: 8pt; color: #4b6269;}
+
+.rank_border td {border-style:solid; border-color:#ffffff; border-width:1px;}
+.button	{
+ background-color: #e5d8ba;
+ border: 1px solid #8a7c60; 
+ font-family: Verdana, Arial, Helvetica, sans-serif; 
+ font-size: 11px;
+ color: #4b2500;
+ font-weight: bold; 
+ height: 20px;
+ text-align: left;
+ padding-bottom: 0px;
+}
+
+.status {  font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif; font-size: 8pt; color: #decdb9;}
+
+DIV#msg-error {
+	BORDER-RIGHT: #c52000 2px solid; BORDER-TOP: #c52000 2px solid; FONT-WEIGHT: bold; MARGIN-BOTTOM: 7px; BORDER-LEFT: #c52000 2px solid; COLOR: #c52000; BORDER-BOTTOM: #c52000 2px solid
+}
+DIV#msg-error UL {
+	PADDING-LEFT: 20px; MARGIN: 5px; LIST-STYLE-TYPE: square
+}
+DIV#msg-error-signup{
+	WIDTH: 70%; BORDER-RIGHT: #c52000 2px solid; BORDER-TOP: #c52000 2px solid; FONT-WEIGHT: bold; MARGIN-BOTTOM: 7px; BORDER-LEFT: #c52000 2px solid; COLOR: #c52000; BORDER-BOTTOM: #c52000 2px solid
+}
+DIV#msg-error-signup UL {
+	PADDING-LEFT: 20px; MARGIN: 5px; LIST-STYLE-TYPE: square
+}
+DIV#msg-ok {
+	BORDER-RIGHT: green 2px solid; BORDER-TOP: green 2px solid; FONT-WEIGHT: bold; BACKGROUND: #f5f5f5; MARGIN-BOTTOM: 7px; BORDER-LEFT: green 2px solid; COLOR: green; BORDER-BOTTOM: green 2px solid
+}
+DIV#msg-ok UL {
+	PADDING-LEFT: 20px; MARGIN: 5px; LIST-STYLE-TYPE: square
+}
+DIV#msg-ok-signup {
+	WIDTH: 70%;	BORDER-RIGHT: green 2px solid; BORDER-TOP: green 2px solid; FONT-WEIGHT: bold; MARGIN-BOTTOM: 7px; BORDER-LEFT: green 2px solid; COLOR: green; BORDER-BOTTOM: green 2px solid
+}
+DIV#msg-ok-signup UL {
+	PADDING-LEFT: 20px; MARGIN: 5px; LIST-STYLE-TYPE: square
+}
+
+/* SylverWolf */
+
+.tabbox { padding: 5px; border: 1px solid #bfd0ff; background: #f9fdff; }
+
+DIV.dynamic-tab {
+	WIDTH: 100%
+}
+DIV.dynamic-tab DIV.tab-row {
+	BORDER-RIGHT: #e5d8ba 1px solid; PADDING-RIGHT: 3px; BORDER-TOP: #e5d8ba 1px solid; PADDING-LEFT: 3px; MARGIN-BOTTOM: 5px; PADDING-BOTTOM: 6px; BORDER-LEFT: #e5d8ba 1px solid; PADDING-TOP: 6px; BORDER-BOTTOM: #e5d8ba 1px solid; BACKGROUND-COLOR: #e5d8ba
+}
+DIV.dynamic-tab DIV.tab-row DIV {
+	BORDER-RIGHT: #e5d8ba 1px solid; PADDING-RIGHT: 6px; BORDER-TOP: #e5d8ba 1px solid; DISPLAY: inline; PADDING-LEFT: 6px; PADDING-BOTTOM: 2px; BORDER-LEFT: #e5d8ba 1px solid; CURSOR: pointer; MARGIN-RIGHT: 3px; PADDING-TOP: 2px; BORDER-BOTTOM: #e5d8ba 1px solid; TEXT-ALIGN: center
+}
+DIV.dynamic-tab DIV.tab-row DIV.selected {
+	BORDER-RIGHT: #e5d8ba 1px solid; BORDER-TOP: #e5d8ba 1px solid; FONT-WEIGHT: bold; BORDER-LEFT: #e5d8ba 1px solid; CURSOR: default; BORDER-BOTTOM: #e5d8ba 1px solid; BACKGROUND-COLOR: #8a7c60
+}
+DIV.dynamic-tab DIV.tab-row DIV.hover {
+	BORDER-RIGHT: #e5d8ba 1px solid; BORDER-TOP: #e5d8ba 1px solid; BORDER-LEFT: #e5d8ba 1px solid; BORDER-BOTTOM: #e5d8ba 1px solid; BACKGROUND-COLOR: #8a7c60
+}
+		
+/*---------------------------------------------------*/
+/*-----------------------------------------------*/
+
+.corner {
+	position:fixed;
+	z-index:43;
+	height:81px;
+	width:108px;
+	background-repeat:no-repeat;
+	cursor: url(../images/cursor.cur), pointer;
+}		
+				
+
+/*---------------------------------------------------*/
+/* Tooltip */
+
+#tooltip {
+	text-align:left;
+	position: absolute;
+	z-index: 000;
+	border: 1px solid #111;
+	background-color: #eee;
+	padding: 5px;
+	-moz-border-radius-bottomleft: 7px;
+	-moz-border-radius-bottomright: 7px;
+	-moz-border-radius-topleft: 0;
+	-moz-border-radius-topright: 7px;
+	max-width: 400px;
+
+	-moz-opacity: 0.85;
+}
+
+#tooltip h3, #tooltip div { margin: 0; font: 11px Tahoma; }
+
+
+.itemblock {
+	border-right: 0px solid #222222;
+	border-bottom: 0px solid #222222;
+	border-left: 0px solid #BBBBBB;
+	border-top: 0px solid #BBBBBB;
+	padding: 0px;
+	text-align: center;
+}
+
+/* SylverWolf */
+.select	{
+ background-color: #e5d8ba;
+ border: 1px solid #8a7c60; 
+ font-family: Verdana, Arial, Helvetica, sans-serif; 
+ font-size: 11px;
+ color: #4b2500;
+ font-weight: bold; 
+ text-align: left;
+ padding-bottom: 0px;
+}
